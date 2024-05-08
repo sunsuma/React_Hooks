@@ -1,6 +1,8 @@
 import './App.css'
-import Formfill from './components/useState/Formfill'
+import PreviousCount from './components/useState/PreviousCount'
+// import Formfill from './components/useState/Formfill'
 // import HooksCounter from './components/useState/HooksCounter'
+
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -8,7 +10,8 @@ function App() {
   return (
     <>
       {/* <HooksCounter/> */}
-      <Formfill/>
+      {/* <Formfill/> */}
+      <PreviousCount/>
     </>
   )
 }
